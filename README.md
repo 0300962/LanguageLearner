@@ -29,6 +29,11 @@ This script will:
 
 ### Instructions
 For detailed instructions and default wiring, see the main LanguageLearner.py file.  Assembly is straightforward.
+
+Files are: 
+- LanguageLearner.py - The main script file
+- wifi.json - Needs to be edited with your wifi connection details, and uploaded to the Pico at the same level as the main script
+- /lib/epaper4_2.py - The Waveshare driver for talking to the display; should be inside the /lib folder that's at the same level as the main script. It's renamed from the one on Waveshare's Github because Micropython wouldn't import a file with a period in the title.
 <img width="1024" height="768" alt="IMG_20260529_170520217" src="https://github.com/user-attachments/assets/6d34f6c7-665e-4f2a-8ef0-f8e2b5bd6dfc" />
 
 
